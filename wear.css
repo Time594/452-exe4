@@ -1,0 +1,112 @@
+body{
+    background-color:rgba(233, 233, 233, 0.999);
+}
+/*set the background color of body*/
+.header {
+    text-align: center;
+    background-color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h1, .header p {
+    margin: 10px; 
+}
+
+.topnav {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 0 20px;
+}
+  
+.topnav a {
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 80px;
+    margin-top:auto;
+    transition: background-color 0.3s;
+}
+  
+.topnav a:not(:last-child) {
+     margin-right: 0px; 
+}
+  
+.topnav a:last-child {
+    margin-left: auto; 
+}
+  
+.topnav a:hover{
+    color: black;
+    background-color: rgba(233, 233, 233, 0.999); 
+}
+/*give some effects to the topnav, make it more beautiful.*/
+.fakeimg:empty {
+    background-color:lightgray ;
+}
+/*if there is nothing content in this elemnt, it will not be set this background color.*/
+.row{
+    display: flex;
+}
+
+.leftcolumn{
+    flex: 2;
+    background-color:rgba(233, 233, 233, 0.999);
+    margin-right: 10px;
+    padding:10px;
+}
+
+.leftcolumn .card1{
+    flex:1;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.leftcolumn .card2{
+    flex: 1;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+/*seperate the leftcolumn into 3 parts.*/
+.rightcolumn{
+    flex: 1;
+    background-color: rgba(233, 233, 233, 0.999);
+    margin-left: 10px;
+    padding:10px;
+}
+
+.rightcolumn .card1{
+    flex: 1;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.rightcolumn .card2{
+    flex: 1;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;/*bottom and top padding*/
+    padding: 10px;
+}
+
+.rightcolumn .card3{
+    flex: 1;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/*seperate the rightcolumn into 4 parts.*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} /*just a simple footer*/
+
